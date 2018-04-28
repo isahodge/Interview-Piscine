@@ -4,27 +4,24 @@
 /*--------------------------------
   !! required structure
   --------------------------------*/
-struct s_item {
-	int idx;
-	struct s_item *next;
+struct s_node {
+	int value;
+	struct s_node *right;
+	struct s_node *left;
 };
 
-struct s_stack {
-	struct s_item *item;
-};
 
 /*--------------------------------
   :) function you must implement
   --------------------------------*/
-struct s_stack *initStack();
-void push(struct s_stack *stack, int idx);
-int pop(struct s_stack *stack);
+void	saveTheSequoia(struct s_node **root);
 
-char *console(void);
 
 /*--------------------------------
-  ?? test function used in main
+  ?? test function used in main 
   --------------------------------*/
+struct s_node *genMinHeap(unsigned seed); //generate a min heap
+void printBinaryTree(struct s_node * t); //print a binary tree
 
 
 /*--------------------------------
