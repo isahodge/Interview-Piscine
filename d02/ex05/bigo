@@ -1,0 +1,2 @@
+O(logn) time, because it's just like binary search
+O(1) space

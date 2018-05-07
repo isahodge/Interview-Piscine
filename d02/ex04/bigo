@@ -1,0 +1,2 @@
+O(n+k) time where k is the range of the inputs
+O(n+k) space where k is range of inputs

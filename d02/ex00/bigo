@@ -1,0 +1,2 @@
+O(g^2) time with g being the number of groups instead of all elements of the list
+O(g) space

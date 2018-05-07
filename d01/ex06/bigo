@@ -1,0 +1,2 @@
+O(n)time because we iterate through list once
+O(1) space because we don't use any extra memory

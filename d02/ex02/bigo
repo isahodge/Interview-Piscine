@@ -1,0 +1,2 @@
+O(nlogn) in average and best case, O(n^2) in worst case(already sorted list)
+O(logn) space

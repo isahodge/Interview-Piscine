@@ -1,0 +1,2 @@
+O(n) we iterate through the list 3 times
+O(1) space because we don't use any auxillary space

@@ -1,0 +1,2 @@
+O(n) time, because we're iterating through the list once with no inner while loops
+O(n)space, because the resive call takes space for every element of the list
